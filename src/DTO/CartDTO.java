@@ -2,7 +2,6 @@ package DTO;
 
 public class CartDTO {
 	private int no;
-	private String userid;
 	private String name;
 	private int cnt;
 	private int price;
@@ -12,12 +11,6 @@ public class CartDTO {
 	}
 	public void setNo(int no) {
 		this.no = no;
-	}
-	public String getUserid() {
-		return userid;
-	}
-	public void setUserid(String userid) {
-		this.userid = userid;
 	}
 	public String getName() {
 		return name;

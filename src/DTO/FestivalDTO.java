@@ -6,7 +6,6 @@ public class FestivalDTO {
 	private String location;
 	private String day;
 	private int price;
-	private int cnt;
 	
 	public int getNo() {
 		return no;
@@ -37,11 +36,5 @@ public class FestivalDTO {
 	}
 	public void setPrice(int price) {
 		this.price = price;
-	}
-	public int getCnt() {
-		return cnt;
-	}
-	public void setCnt(int cnt) {
-		this.cnt = cnt;
 	}
 }
